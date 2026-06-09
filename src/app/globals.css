@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "@fontsource/barlow/400.css";
+@import "@fontsource/barlow/500.css";
+@import "@fontsource/barlow/600.css";
+@import "@fontsource/barlow-condensed/600.css";
+@import "@fontsource/barlow-condensed/700.css";
+
+@theme {
+  --color-primary: #FFE500;
+  --color-primary-hover: #E6CF00;
+  --color-dark: #0A0A0A;
+  --color-surface: #1A1A1A;
+  --color-border: #2A2A2A;
+  --color-muted: #888888;
+  --color-danger: #EF4444;
+  --color-success: #22C55E;
+
+  --font-sans: "Barlow", sans-serif;
+  --font-display: "Barlow Condensed", sans-serif;
+}
+
+body {
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  font-family: "Barlow", sans-serif;
+}
